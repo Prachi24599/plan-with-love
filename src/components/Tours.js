@@ -6,7 +6,7 @@ function Tours({ tours, removeTour }) {
       <div>
         <h2 className="title">Plan With Love</h2>
       </div>
-      <div>
+      <div className="cards">
         {tours.map((tour) => {
           return <Card {...tour} removeTour={removeTour}></Card>;
         })}
