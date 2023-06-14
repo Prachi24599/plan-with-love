@@ -70,3 +70,41 @@ body {
   color: #12b0e8;
   cursor: pointer;
 }
+
+.btn-red {
+  margin-top: 18px;
+  padding: 10px 80px;
+  border: 1px solid #b4161b;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #b4161b2a;
+}
+
+.btn-red:hover {
+  background-color: red;
+  color: white;
+  transition: all 0.2s;
+}
+
+.refresh {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-white {
+  margin-top: 18px;
+  padding: 10px 80px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.btn-white:hover {
+  background-color: white;
+  color: black;
+  transition: all 0.2s;
+}
